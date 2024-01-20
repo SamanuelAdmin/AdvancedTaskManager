@@ -7,7 +7,7 @@
 </div>
 
 
-Simple task manager with possibility of showing data on small 2.4'' tft lcd screen (via arduino). Now can show only CPU and RAM usage data 
+#### Simple task manager with possibility of showing data on small 2.4'' tft lcd screen (via arduino). Now can show only CPU and RAM usage data 
 
 ____
 
@@ -41,20 +41,22 @@ ____
    + One USB wire (can be with arduino) to connect Arduino to your PC.
 
 #### 2) Connect screen shield to arduino like a picture shows and arduino to USB port of your PC.
-![image](https://github.com/SamanuelAdmin/AdvancedTaskManager/assets/68198268/b899a11a-8307-42f5-86ed-d1d8bd64fd1c)
+<img src="https://github.com/SamanuelAdmin/AdvancedTaskManager/assets/68198268/75b5a41e-2d61-463f-9d35-41781032bb66" style="height: 300px;">
 
 #### 3) Download Arduino IDE (IDE for working with Arduino and other simmilar modules) from [official site]() and start it.
 
-#### 4) Install all dependencies
+#### 4) Install all dependencies from *arduino dependencies*
   + Use ***Sketch*** -> ***Include Library*** -> ***Manage libraries*** and enter names of all libraries and download it one after another.
     [GUIDE HOW TO INSTALL LIBRARIES](https://www.digikey.com/en/maker/tutorials/2018/how-to-install-arduino-libraries)
   + It must looks like on this screenshot
     ![Screenshot_20240120_220208](https://github.com/SamanuelAdmin/AdvancedTaskManager/assets/68198268/7a012f28-81fc-4cfa-8543-3b853e3401a3)
 
 
-#### 4) I can recommend you to test your Arduino and screen before uploading main firmware by 
-Next you need to upload code (from ``arduino code`` folder) to your Arduino using [this guide](https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE).
-Now you can connect arduino to your computer via USB and enjoy!
+#### 5) I can recommend you to test your Arduino and screen before uploading main firmware. You can do it with example skatches (***File*** -> ***Examples***)
+
+#### 6) Next you need to upload code (from ``arduino code`` folder) to your Arduino using [this guide](https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE).
+
+***Now you can connect arduino to your computer via USB and enjoy!***
 
 ___
 
@@ -67,6 +69,7 @@ ___
 + [Oshi-core](https://search.maven.org/artifact/com.github.oshi/oshi-dist/6.4.11/pom) >= 6.4.11
 
 ***For arduino firmware***
-+ 
-
-BUT YOU DONT NEED TO ADD IT TO THE PROJECT!
++ Arduino_JSON >= 0.2.0
++ Adafruit BusIO >= 1.15.0
++ Adafruit GFX Library >= 1.11.9
++ SPFD5408 TFT Library >= 1.1.0
