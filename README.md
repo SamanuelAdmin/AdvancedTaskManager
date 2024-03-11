@@ -73,3 +73,13 @@ ___
 + Adafruit BusIO >= 1.15.0
 + Adafruit GFX Library >= 1.11.9
 + SPFD5408 TFT Library >= 1.1.0
+
+
+<br>
+<hr>
+<h3>Support</h3>
+<p>If <i>you enjoy my projects</i> or that <i>was helpful</i>, you can support me by donation.</p>
+
+`
+Visa: 4441 1144 6743 1589
+`
